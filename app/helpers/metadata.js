@@ -2,6 +2,7 @@
 export const Meta = {
   title: 'Shane Harley - Product Designer',
   description: 'Shane Harley - Product Designer',
+  robots: 'noindex',
   icons: {
     icon: [
       {
