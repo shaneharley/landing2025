@@ -1,0 +1,48 @@
+{
+  "featuredProjects": {
+    "title": "Featured Projects.",
+    "blurb": "The following is a selection of work ranging from year-long initiatives, to short intensive sprints. It's varied from product design, to design systems, to brand design. The thing it has in common is it's all work that I'm proud to have been a part of.",
+    "projects": {
+      "gemini": {
+        "id": "gemini",
+        "company": "Google Chrome",
+        "project": "Bringing AI into the heart of Google Chrome on Desktop"
+      },
+      "gm3": {
+        "id": "gm3",
+        "company": "Google Chrome",
+        "project": "Designing a modern, colorful refresh to Chrome on Desktop, a 1B+ user product"
+      },
+      "designSystem": {
+        "id": "designSystem",
+        "company": "Google Chrome",
+        "project": "Establishing a Design System for Chrome that drives cohesion"
+      },
+      "resultsAboutYou": {
+        "id": "resultsAboutYou",
+        "company": "Google Search",
+        "project": "Empowering users to take control and remove their personal information on Search"
+      },
+      "audible": {
+        "id": "audible",
+        "company": "IDEO x Audible",
+        "project": "Developing a bold, yet viable product vision that differentiates Audible amongst competitors"
+      },
+      "ikea": {
+        "id": "ikea",
+        "company": "IDEO x IKEA",
+        "project": "A data beacon project for IKEA to help explore the possibilities of open data"
+      },
+      "leafly": {
+        "id": "leafly",
+        "company": "IDEO x Leafly",
+        "project": "Designing the digital experience around the launch of Leafly's new strain system"
+      },
+      "shaw": {
+        "id": "shaw",
+        "company": "SapientNitro x Shaw",
+        "project": "Co-leading design of a digital ecosystem for one of Canadas largest telcos, Shaw"
+      }
+    }
+  }
+}

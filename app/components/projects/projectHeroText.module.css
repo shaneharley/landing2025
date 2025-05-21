@@ -1,0 +1,8 @@
+.title {
+  grid-column: 1 / span 8;
+}
+
+.blurb {
+  grid-column: 9 / span 7;
+  text-indent: 40px;
+}

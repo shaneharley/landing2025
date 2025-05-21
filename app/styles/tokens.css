@@ -6,6 +6,9 @@
   --light-grey: 221, 221, 221;
   --yellow: 252, 255, 151;
   --white: 255, 255, 255;
+
+  /*opacities*/
+  --divider: .2;
 }
 
 [data-theme="yellow"] {

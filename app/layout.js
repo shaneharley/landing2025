@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/next"
 import "@/styles/globals.css";
 import "@/styles/tokens.css";
 import "@/styles/typography.css"
+import "@/styles/grids.css"
 
 //import components
 import { bodyFont, monoFont } from '@/helpers/fonts'

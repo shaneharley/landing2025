@@ -1,0 +1,22 @@
+.projectRows {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: span 16;
+  padding-top: 96px;
+}
+
+.rowHeading {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: span 16;
+  border-bottom: 1px solid rgba(var(--on-surface), var(--divider));
+  padding-bottom: 24px;
+}
+
+.company {
+  grid-column: 1 / span 4;
+}
+
+.project {
+  grid-column: 5 / span 12;
+}
