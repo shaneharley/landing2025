@@ -1,0 +1,16 @@
+:root {
+  /*ref color tokens*/
+  --black: 0, 0, 0;
+  --dark-grey: 51, 51, 51;
+  --mid-grey: 143, 163, 156;
+  --light-grey: 221, 221, 221;
+  --yellow: 252, 255, 151;
+  --white: 255, 255, 255;
+}
+
+[data-theme="yellow"] {
+  --surface: var(--yellow);
+  --on-surface: var(--black);
+  --on-surface-subtle: var(--mid-grey);
+  --accent: var(--black);
+}

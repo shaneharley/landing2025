@@ -1,6 +1,6 @@
 # Portfolio 2025
 
-## Preview: [https://landing2025-dusky-working.vercel.app//](https://landing2025-dusky-working.vercel.app/)
+## Preview: [https://landing2025-dusky-working.vercel.app/](https://landing2025-dusky-working.vercel.app/)
 
 ### Coding To Do
 - 
