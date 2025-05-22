@@ -1,10 +1,10 @@
 .grid {
   display: grid;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: var(--spacingXXL);
+  padding-right: var(--spacingXXL);
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: auto;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  height: 100%;
+  grid-column-gap: var(--spacingL);
+  grid-row-gap: var(--spacingL);
+  min-height: 100vh;
 }

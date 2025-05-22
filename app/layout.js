@@ -17,7 +17,7 @@ export { Meta as metadata } from '@/helpers/metadata'
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${bodyFont.variable} ${monoFont.variable}`}>
-      <body data-theme="yellow">
+      <body data-theme="grey">
         {children}
         <SpeedInsights />
         <Analytics />

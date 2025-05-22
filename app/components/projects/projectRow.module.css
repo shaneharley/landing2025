@@ -1,6 +1,6 @@
 .row {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: var(--spacingXL);
+  padding-bottom: var(--spacingXL);
   border-bottom: 1px solid rgba(var(--on-surface), var(--divider));
   display: grid;
   grid-template-columns: subgrid;
@@ -8,9 +8,13 @@
 }
 
 .company {
+  composes: bodyL from global;
   grid-column: 1 / span 4;
+  color: rgba(var(--on-surface), 1);
 }
 
 .project {
+  composes: bodyL from global;
   grid-column: 5 / span 12;
+  color: rgba(var(--on-surface), 1);
 }

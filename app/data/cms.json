@@ -1,4 +1,24 @@
 {
+  "contact": {
+    "title": "Say hello.",
+    "contactInfo": {
+      "phone": {
+        "id": "phone",
+        "title": "Phone Number",
+        "blurb": "+61 481 262 179"
+      },
+      "email": {
+        "id": "email",
+        "title": "Email Address",
+        "blurb": "<a href='mailto:hello@shaneharley.net' target='_blank'>hello@shaneharley.net</a>"
+      },
+      "development": {
+        "id": "development",
+        "title": "Development",
+        "blurb": "Built by me using React and Next.js"
+      }
+    }
+  },
   "featuredProjects": {
     "title": "Featured Projects.",
     "blurb": "The following is a selection of work ranging from year-long initiatives, to short intensive sprints. It's varied from product design, to design systems, to brand design. The thing it has in common is it's all work that I'm proud to have been a part of.",

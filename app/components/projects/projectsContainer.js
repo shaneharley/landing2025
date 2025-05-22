@@ -4,16 +4,15 @@ import ProjectRow from '@/components/projects/projectRow'
 import styles from '@/components/projects/projectsContainer.module.css'
 
 export default function ProjectsContainer(props) {
-  const text = props.data.featuredProjects
-  const projects = text.projects;
-  const projectsArray = Object.keys(projects).map(key => ({ ...projects[key], "key": key }));
+  const text = props.featuredProjects
+  const projectItem = props.featuredProjects.projects
+  const projectsArray = Object.keys(projectItem).map(key => ({ ...projectItem[key], "key": key }));
 
   return (
     <section className={`grid`}>
       <ProjectHeroText {...text} />
-      <ProjectRow />
       <div className={`${styles.projectRows}`}>
-        <div className={`${styles.rowHeading} tableHeadings`}>
+        <div className={`${styles.rowHeading}`}>
           <p className={`${styles.company}`}>
             Company
           </p>
@@ -21,8 +20,8 @@ export default function ProjectsContainer(props) {
             Project
           </p>
         </div>
-        {projectsArray.map(project => (
-          <ProjectRow project={(project)} key={project.id} />
+        {projectsArray.map(projectItem => (
+          <ProjectRow projectItem={(projectItem)} key={projectItem.id} />
         ))}
       </div>
     </section>

@@ -16,6 +16,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-weight: 400;
 }
 
 a {
@@ -24,6 +25,6 @@ a {
 }
 
 section {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: var(--spacingXXL);
+  padding-bottom: var(--spacingXXL);
 }

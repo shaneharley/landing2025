@@ -1,0 +1,13 @@
+.hello {
+  composes: jumboHeadline from global;
+  color: rgba(var(--accent), 1);
+  grid-column: 1 / span 16;
+  padding-bottom: var(--spacingXXXL);
+}
+
+.link {
+  text-decoration: solid underline;
+  text-decoration-thickness: 12px;
+  display: inline-block;
+  text-underline-offset: 20px;
+}

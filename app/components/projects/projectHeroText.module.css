@@ -1,8 +1,12 @@
 .title {
   grid-column: 1 / span 8;
+  composes: titleL from global;
+  color: rgba(var(--on-surface), 1);
 }
 
 .blurb {
   grid-column: 9 / span 7;
-  text-indent: 40px;
+  composes: bodyL from global;
+  text-indent: var(--spacingXXL);
+  color: rgba(var(--on-surface), 1);
 }

@@ -1,0 +1,17 @@
+.contactInfoItem {
+  grid-column: span 4;
+  align-self: end;
+}
+
+.columnTitle {
+  composes: labelL from global;
+  color: rgba(var(--accent), 1);
+  border-bottom: 1px solid rgba(var(--on-surface), var(--divider));
+  padding-bottom: var(--spacingL);
+}
+
+.contactInfoBlurb {
+  composes: bodyL from global;
+  color: rgba(var(--on-surface), 1);
+  padding-top: var(--spacingL);
+}
